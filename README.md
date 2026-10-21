@@ -1,3 +1,5 @@
+### да, это лютый вайбкод
+---
 # Yet Another Music Downloader
 
 **YAMD** — терминальное приложение: SoundCloud / YouTube → аудио MP3 → Telegram-канал.
