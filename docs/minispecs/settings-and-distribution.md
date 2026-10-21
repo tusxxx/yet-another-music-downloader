@@ -4,8 +4,8 @@ Name: Yet Another Music Downloader settings and standalone distribution
 Description: Настраивать Telegram из CLI/TUI, собрать автономное приложение Yet Another Music Downloader (yamd) и опубликовать исходники в публичном GitHub-репозитории.
 Keywords: settings, token, chat_id, config, pyinstaller, macos, standalone, github, public
 Affected Modules: yamd.py, yamd_tui.py, yamd_config.py, yamd.spec, tools/build.py, README.md
-Status: active
-Last Updated: 2026-07-17
+Status: completed
+Last Updated: 2026-10-21
 
 # Goal
 
@@ -68,3 +68,4 @@ Last Updated: 2026-07-17
 - Распакованная поставка проверена вне проекта с изолированным HOME и PATH без .venv: --help/--version, реальный PTY-ввод --configure без эха токена, запуск/выход TUI через PTY, диагностика отсутствия FFmpeg до сетевых запросов, наличие EJS и контрольная сумма.
 - Исходники и содержимое архива проверены на значения локального .env без вывода секретов; отслеживаемые файлы также проверены на распространённые шаблоны секретов. .env/.pi/.venv/build/dist исключены из Git.
 - Реальные токены не менялись; скачивание и публикация в Telegram не выполнялись. Проверена текущая macOS arm64, не другие ОС/архитектуры.
+- Создан https://github.com/tusxxx/yet-another-music-downloader, подтверждены PUBLIC и ветка main. Удалённое дерево содержит только 14 разрешённых файлов; секреты, логи и бинарные артефакты отсутствуют. Автор коммитов использует GitHub noreply email.
