@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+.pi/
+__pycache__/
+*.py[cod]
+build/
+dist/
+/config.json
+/config.local.json
+.DS_Store
